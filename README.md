@@ -42,4 +42,4 @@ The example presents an travel agency website to book travels. Goal is to learn 
 
 ## :bookmark: License
 
-[MIT License](https://opensource.org/license/mit) :copyright: 2024 Christoph Hartleb
+This project is licensed under the terms of the [MIT License](LICENSE).
