@@ -1,22 +1,14 @@
-## :newspaper: about the project ##
+# Travel Agency Website
 
-**travel agency:**
+## :newspaper: About the project
 
-The example presents an travel agency website to book travels. Goal is to learn more about php related subjects.
+Welcome to your ultimate travel booking destination! Our innovative travel agency website is designed to make your dream vacations a reality with just a few clicks. Explore a world of possibilities and book your next adventure effortlessly. Whether you're planning a tropical getaway or a cultural expedition, our platform offers unparalleled ease and convenience.
 
-## :heavy_check_mark: prerequisites ##
+Dive into a seamless booking experience and discover the magic of travel with us. Plus, enhance your knowledge of PHP and web development as you navigate our cutting-edge features. Get ready to embark on unforgettable journeys and broaden your horizons both as a traveler and a tech enthusiast. Your adventure starts here!
 
-1. download and install [XAMPP Apache + MariaDB + PHP + Perl](https://www.apachefriends.org/de/index.html)
+### Directory structure
 
-## :pencil2: usage
-
-1. start xampp control panel and start __Apache__ and __MySQL__
-1. place the downloaded and extracted files in __htdocs__
-1. open <code>loclahost/travel-agency/index.php</code> in browser of your choice
-
-## :file_folder: folder structure ##
-
-    travel-agency
+    .
     ├── classes
         └── Database.php - all functions for database  
     ├── css
@@ -33,13 +25,56 @@ The example presents an travel agency website to book travels. Goal is to learn 
     ├── README.md - provides project overview and information
     └── voyages.php - use case diagram
 
-## :books: useful markdown resources ##
+## :runner: Getting started
 
-* [basic syntax](https://www.markdownguide.org/basic-syntax/)
-* [complete list of github markdown emojis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia)
-* [awesome template](https://github.com/ma-shamshiri/Human-Activity-Recognition/blob/main/README.md)
-* [.gitignore file](https://git-scm.com/docs/gitignore)
+### Prerequisites
 
-## :bookmark: License
+0. download and install [XAMPP Apache + MariaDB + PHP + Perl](https://www.apachefriends.org/de/index.html)
+
+### Run the website
+
+1. start xampp control panel and start __Apache__ and __MySQL__
+   
+2. place the downloaded and extracted files in __htdocs__
+
+3. open <code>loclahost/travel-agency/index.php</code> in browser of your choice:
+
+4. Main page:
+
+![](images/main.png)
+
+5. Database:
+
+![](images/database.png)
+
+
+## :books: Resources used to create this project
+
+* PHP
+  * [Documentation](https://www.php.net/docs.php)
+* HTML
+  * [HTML: HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* CSS
+  * [CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=de)
+* Editor
+  * [Visual Studio Code](https://code.visualstudio.com/)
+* Frameworks
+  * [XAMPP Documentation](https://www.apachefriends.org/docs/)
+  * [Laravel](https://laravel.com/docs/11.x)
+* Markdwon
+  * [Basic syntax](https://www.markdownguide.org/basic-syntax/)
+  * [Complete list of github markdown emofis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia)
+  * [Awesome template](http://github.com/Human-Activity-Recognition/blob/main/README.md)
+  * [.gitignore file](https://git-scm.com/docs/gitignore)
+
+## License
 
 This project is licensed under the terms of the [MIT License](LICENSE).
+
+## COPYRIGHT
+
+See the [COPYRIGHT](COPYRIGHT) file for copyright and licensing details.
+
+## Code of Conduct
+
+Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing to this project.

@@ -18,7 +18,7 @@ printf( "<div class='fixed-bottom'>
             data-ripple-color='light'
           >
             <img
-              src='../images/041.jpg'
+              src='images/041.jpg'
               class='w-100'
             />
             <a href='#!'>
@@ -35,7 +35,7 @@ printf( "<div class='fixed-bottom'>
             data-ripple-color='light'
           >
             <img
-              src='../images/042.jpg'
+              src='images/042.jpg'
               class='w-100'
             />
             <a href='#!'>
@@ -51,7 +51,7 @@ printf( "<div class='fixed-bottom'>
             class='bg-image hover-overlay ripple shadow-1-strong rounded'
             data-ripple-color='light'>
             <img
-              src='../images/043.jpg'
+              src='images/043.jpg'
               class='w-100'
             />
             <a href='#!'>
@@ -67,7 +67,7 @@ printf( "<div class='fixed-bottom'>
             class='bg-image hover-overlay ripple shadow-1-strong rounded'
             data-ripple-color='light'>
             <img
-              src='../images/044.jpg'
+              src='images/044.jpg'
               class='w-100'
             />
             <a href='#!'>
@@ -83,7 +83,7 @@ printf( "<div class='fixed-bottom'>
             class='bg-image hover-overlay ripple shadow-1-strong rounded'
             data-ripple-color='light'>
             <img
-              src='../images/053.jpg'
+              src='images/053.jpg'
               class='w-100'
             />
             <a href='#!'>
@@ -99,7 +99,7 @@ printf( "<div class='fixed-bottom'>
             class='bg-image hover-overlay ripple shadow-1-strong rounded'
             data-ripple-color='light'>
             <img
-              src='../images/041.jpg'
+              src='images/041.jpg'
               class='w-100'
             />
             <a href='#!'>

@@ -14,20 +14,20 @@ printf( "<!DOCTYPE html>
 		<title>Reisebüro Starlines</title>
 		<meta charset='UTF-8'>" );
 		require_once "include/include_bootstrap.php";
-		printf( "<link rel='stylesheet' href='../css/blink.css'>
+		printf( "<link rel='stylesheet' href='css/blink.css'>
 	</head>
 	<!-- /header -->
 
 	<!-- body: Show travel offers in a table -->
 	<body>
-		<h1 style='text-align:center;'>Herzlich willkommen in unserer Bücherei</h1>
-		<p style='text-align:center;'>Hier sehen Sie unsere gesamtes Sortiment gelistet.</p>
+		<h1 style='text-align:center;'>Welcome to our offers</h1>
+		<p style='text-align:center;'>Here you can see our entire range listed.</p>
 		<div id='wrapper'>" );
 			/**
 			 * WICHTIG: Die Parameter müssen in folgender Reihenfolge
 			 * angegeben werden: $HOST_NAME, %USER_NAME, $PASSWORD and $DATABASE_NAME.
 			 */
-			$reisebuero_db = new Database( 'localhost','christoph','hpotsirhc','reisebuero' ); # Neues Datenbank-Objekt initialisieren
+			$reisebuero_db = new Database( 'localhost','reisebuero','christoph','hpotsirhc' ); # Neues Datenbank-Objekt initialisieren
 			$result_of_query = $reisebuero_db->sql_query( 'SELECT * FROM reisen' ); # Abfrage 
 			echo "<table border='1' style='margin-left:auto;margin-right:auto;'>";
 			while( $row = mysqli_fetch_assoc( $result_of_query ) ) # Alle Spalten aus der Datenbank werden ausgegeben
@@ -46,7 +46,7 @@ printf( "<!DOCTYPE html>
 			}
 			echo '</table>';
 			$reisebuero_db->close_connection_to_database(); # Verbindung zur Datenbank schließen
-			require_once 'include/include_footer.php';
+			// require_once 'include/include_footer.php';
 		printf( "</div>
 	</body>
 	<!-- /body -->
